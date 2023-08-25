@@ -38,7 +38,7 @@ You can access screenshots of each page from the 'Screenshots' folder.
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/SertacN/Space-Tourism-Website)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://sertacn.github.io/space-tourism-website/)
 
 ## My process
 
