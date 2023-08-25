@@ -23,7 +23,7 @@
 
 /* Home Page CSS */
 .homeContainer {
-  background: url("public/assets/home/background-home-desktop.jpg");
+  background: url("/public/assets/home/background-home-desktop.jpg");
   height: calc(100vh);
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 
 /* Destination Page CSS */
 .destContainer {
-  background: url("public/assets/destination/background-destination-desktop.jpg");
+  background: url("/public/assets/destination/background-destination-desktop.jpg");
   height: calc(100vh);
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@
 
 /* Crew Page CSS */
 .crewContainer {
-  background: url("public/assets/crew/background-crew-desktop.jpg");
+  background: url("/public/assets/crew/background-crew-desktop.jpg");
   height: calc(100vh);
   background-position: center;
   background-repeat: no-repeat;
@@ -202,7 +202,7 @@
 
 /* Technology Page CSS */
 .techContainer {
-  background: url("public/assets/technology/background-technology-desktop.jpg");
+  background: url("/public/assets/technology/background-technology-desktop.jpg");
   height: calc(100vh);
   background-position: center;
   background-repeat: no-repeat;

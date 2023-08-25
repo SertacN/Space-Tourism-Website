@@ -48,7 +48,7 @@
   }
   /* HOME CSS */
   .homeContainer {
-    background: url("public/assets/home/background-home-mobile.jpg") !important ;
+    background: url("/public/assets/home/background-home-mobile.jpg") !important ;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -91,7 +91,7 @@
   }
   /* DESCRIPTION CSS */
   .destContainer {
-    background: url("public/assets/destination/background-destination-mobile.jpg") !important ;
+    background: url("/public/assets/destination/background-destination-mobile.jpg") !important ;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -130,7 +130,7 @@
   }
   /* CREW CSS */
   .crewContainer {
-    background: url("public/assets/crew/background-crew-mobile.jpg") !important ;
+    background: url("/public/assets/crew/background-crew-mobile.jpg") !important ;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -177,7 +177,7 @@
   }
   /* TECHNOLOHY CSS */
   .technologyContainer {
-    background: url("public/assets/technology/background-technology-mobile.jpg") !important ;
+    background: url("/public/assets/technology/background-technology-mobile.jpg") !important ;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;

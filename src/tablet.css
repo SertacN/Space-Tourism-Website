@@ -10,7 +10,7 @@
   }
   /* HOME PAGE */
   .homeContainer {
-    background: url("public/assets/home/background-home-tablet.jpg");
+    background: url("/public/assets/home/background-home-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
   }
   /* DESTINATION PAGE */
   .destContainer {
-    background: url("public/assets/destination/background-destination-tablet.jpg");
+    background: url("/public/assets/destination/background-destination-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@
   }
   /* TECHNOLOGY PAGE */
   .techContainer {
-    background: url("public/assets/technology/background-technology-tablet.jpg");
+    background: url("/public/assets/technology/background-technology-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
