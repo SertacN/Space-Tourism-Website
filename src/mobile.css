@@ -1,0 +1,216 @@
+@media (max-width: 480px) {
+  /* NAVBAR CSS */
+  .navContainer {
+    width: 100%;
+    top: 24px;
+  }
+  .navLink {
+    display: none;
+  }
+  .navLinkMobile {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .logo {
+    margin-left: 24px;
+  }
+  .iconMenu {
+    right: 24px;
+    top: 36px;
+    position: absolute;
+  }
+  .navWhenOpen {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: hsl(0deg 0% 100% / 16%);
+    backdrop-filter: blur(20px);
+    width: 254px;
+    z-index: 1;
+  }
+  .navText {
+    height: 50px !important;
+  }
+  .closeIcon {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+  }
+  .navMobileLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin-top: 80px;
+    height: 300px;
+    justify-content: space-between;
+  }
+  /* HOME CSS */
+  .homeContainer {
+    background: url("public/assets/home/background-home-mobile.jpg") !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 108vh;
+  }
+  .homeDescription {
+    display: flex;
+    width: 327px !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .homeDescription h5 {
+    font-size: 16px !important;
+    color: #d0d6f9;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+  }
+  .homeTitle {
+    color: #fff;
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 125% */
+    margin: 0;
+  }
+  .homeBtn button {
+    width: 150px;
+    height: 150px;
+  }
+  .homeBtn button h4 {
+    font-size: 20px;
+  }
+  /* DESCRIPTION CSS */
+  .destContainer {
+    background: url("public/assets/destination/background-destination-mobile.jpg") !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 108vh;
+  }
+  .destAbs h5 {
+    font-size: 16px;
+  }
+  .destImage img {
+    width: 170px !important;
+    height: 170px !important;
+  }
+  .btnContainer {
+    display: flex;
+    margin-right: -30px !important;
+    justify-content: center !important;
+  }
+  .navTextBtn {
+    margin-right: 26px !important;
+    font-size: 16px !important;
+  }
+  .destContent h2 {
+    font-size: 56px;
+  }
+  .destContent p {
+    font-size: 15px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .subDest {
+    height: 150px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* CREW CSS */
+  .crewContainer {
+    background: url("public/assets/crew/background-crew-mobile.jpg") !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 108vh;
+  }
+  .sliderContainer {
+    margin-right: -213px !important;
+  }
+  .crewRole {
+    font-size: 16px !important;
+  }
+  .crewName {
+    font-size: 24px !important;
+  }
+  .crewBio {
+    font-size: 15px !important;
+  }
+  .crewContent {
+    margin: 0;
+    width: 340px !important;
+  }
+  .crewRole,
+  .crewName,
+  .crewBio {
+    width: 290px !important;
+  }
+  .imageContainer img {
+    height: 333px !important;
+  }
+  .btnCrewContainer {
+    margin: 40px 40px 35px 0 !important;
+  }
+  .imageContainer img {
+    margin-right: 55px !important;
+  }
+  .slide-left1 {
+    transform: translateX(-281px);
+  }
+  .slide-left2 {
+    transform: translateX(-615px);
+  }
+  .slide-left3 {
+    transform: translateX(-964px);
+  }
+  /* TECHNOLOHY CSS */
+  .technologyContainer {
+    background: url("public/assets/technology/background-technology-mobile.jpg") !important ;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 108vh;
+  }
+  .techBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .techBtnContainer {
+    margin: 24px !important;
+  }
+  .sliderTechContainer {
+    margin-top: 185px !important;
+    height: 190px !important;
+  }
+  .imageTechContainer img {
+    width: 392px;
+  }
+  .techDesc h3 {
+    font-size: 24px !important;
+  }
+  .techDesc {
+    width: 327px;
+  }
+  .techContentContainer {
+    justify-content: flex-end;
+  }
+  .slide-up1 {
+    transform: translateX(-392px) !important;
+  }
+  .slide-up2 {
+    transform: translateX(-786px) !important;
+  }
+}

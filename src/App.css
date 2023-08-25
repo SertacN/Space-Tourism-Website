@@ -1,0 +1,305 @@
+/* Navbar CSS */
+.navContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 0;
+  width: 90%;
+  margin: 40px 0 0 55px;
+}
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: hsl(0deg 0% 100% / 16%);
+  backdrop-filter: blur(8px);
+  height: 96px;
+  width: 830px;
+}
+.active {
+  box-shadow: 0 5px 0px -2px #ffffff;
+}
+
+/* Home Page CSS */
+.homeContainer {
+  background: url("public/assets/home/background-home-desktop.jpg");
+  height: calc(100vh);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeContentContainer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+.homeTitle {
+  color: #fff;
+  margin: 1.5rem 0 1.2rem 0;
+}
+.homeDescription {
+  display: flex;
+  flex-direction: column;
+  width: 28.125rem;
+  color: #d0d6f9;
+  margin-top: 10rem;
+}
+.homeBtn button {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 10rem;
+  color: #0b0d17;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 64px,
+    rgba(36, 38, 47, 0) 0px 0px 0px 62px;
+  transition: 0.3s;
+  opacity: 1;
+  animation: backdropFilterAnimation 1s infinite alternate;
+}
+@keyframes backdropFilterAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+.homeBtn button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 64px,
+    rgba(36, 38, 47, 1) 0px 0px 0px 62px;
+}
+
+/* Destination Page CSS */
+.destContainer {
+  background: url("public/assets/destination/background-destination-desktop.jpg");
+  height: calc(100vh);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.destAbs {
+  color: #ffffff;
+  position: absolute;
+  top: 212px;
+  left: 167px;
+}
+
+.destAbs span {
+  opacity: 0.5;
+}
+.destImage {
+  margin-top: 150px;
+}
+.destContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.destContent {
+  width: 450px;
+}
+
+.subDest {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.btnContainer {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/* Crew Page CSS */
+.crewContainer {
+  background: url("public/assets/crew/background-crew-desktop.jpg");
+  height: calc(100vh);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.crewContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100vh;
+}
+.sliderContainer {
+  width: 513px;
+  overflow: hidden;
+  margin-right: 165px;
+}
+.imageContainer {
+  display: flex;
+  transform: translateX(0px);
+  transition: 1s;
+  align-items: flex-end;
+}
+.imageContainer img {
+  margin-right: 50px;
+}
+.slide-left1 {
+  transform: translateX(-530px);
+}
+.slide-left2 {
+  transform: translateX(-1077px);
+}
+.slide-left3 {
+  transform: translateX(-1685px);
+}
+.crewContent {
+  width: 500px;
+  margin: 0 80px 0 165px;
+}
+.btnCrewContainer {
+  margin: 120px 0 100px 0;
+}
+
+.btnCrewContainer button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 24px;
+}
+.btnCrewContainer button:hover {
+  opacity: 0.5;
+}
+.crewRole {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+}
+.crewName {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 15px 0 27px 0;
+}
+.crewBio {
+  width: 444px;
+  color: #d0d6f9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* Technology Page CSS */
+.techContainer {
+  background: url("public/assets/technology/background-technology-desktop.jpg");
+  height: calc(100vh);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.techContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.techContent {
+  display: flex;
+  margin-top: 200px;
+}
+.techDesc {
+  width: 470px;
+  height: 303px;
+}
+.techDesc p {
+  color: #d0d6f9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+.techDesc .sh2 {
+  color: #d0d6f9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.techDesc h3 {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 11px 0 17px 0;
+}
+
+.sliderTechContainer {
+  width: 515px;
+  height: 527px;
+  overflow: hidden;
+  margin-top: 220px;
+}
+.imageTechContainer {
+  display: flex;
+  transform: translateY(0px);
+  transition: 1s;
+  flex-direction: column;
+}
+.slide-up1 {
+  transform: translateY(-535px);
+}
+.slide-up2 {
+  transform: translateY(-1058px);
+}
+.techBtnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 80px 0 165px;
+}
+.techBtn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgb(254 254 254 / 30%);
+  color: #0b0d17;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+.techBtn:hover {
+  border: 1px solid rgb(254 254 254 / 100%);
+}
+.bgNone {
+  background: none;
+  color: white;
+}
+
+.iconMenu {
+  background: none;
+  border: none;
+}
+.closeIcon {
+  background: none;
+  border: none;
+}
