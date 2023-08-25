@@ -15,7 +15,9 @@ function Home() {
           </p>
         </div>
         <div className="homeBtn">
-          <button onClick={() => navigate("/destination")}>
+          <button
+            onClick={() => navigate("/space-tourism-website/destination")}
+          >
             <h4>EXPLORE</h4>
           </button>
         </div>
